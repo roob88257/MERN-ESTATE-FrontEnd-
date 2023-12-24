@@ -1,8 +1,18 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Profile from './pages/Profile';
 
 function App() {
   return (
-    <div className='bg-black'>App</div>
+    <BrowserRouter>
+     <Routes>
+     <Route path="/" element={<Home />} />
+     <Route path="/profile" element={<Profile />} />
+
+     </Routes>
+    </BrowserRouter>
+
   )
 }
 
