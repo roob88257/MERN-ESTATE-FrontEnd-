@@ -7,7 +7,7 @@ function Header() {
     <header className='flex flex-row px-20 py-4 bg-slate-200 place-content-between shadow-md' >
         <Link to='/'>
         <h1 className='font-bold flex flex-wrap'>
-            <span className='text-slate-500 text-xl'>Sahand</span>
+            <span className='text-slate-500 text-xl'>Raj</span>
             <span className='text-slate-900 text-xl'>Estate</span>
         </h1>
         </Link>
