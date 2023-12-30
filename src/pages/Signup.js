@@ -44,6 +44,9 @@ function Signup() {
       })
         .then(response => {
             toast.success(response.data);
+            setTimeout(()=>{
+                navigate('/sign-in');
+            },1500);
          
         })
         .catch(error => {
@@ -55,9 +58,7 @@ function Signup() {
 
   setIsLoading(false); 
  
-  setTimeout(()=>{
-    navigate('/sign-in');
-},1500);
+ 
  // window.location.reload()
    }
 
